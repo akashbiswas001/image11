@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <style>
+        .image-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            grid-gap: 10px;
+            justify-items: center;
+        }
+        .image-grid img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="image-grid">
+        <!-- Replace 'your_image.jpg' with actual image filenames -->
+        <img src="http://127.0.0.1:8000/assets/images/1708860522.jpeg" alt="Image 1">
+        <img src="http://127.0.0.1:8000/assets/images/1708862343.jpeg" alt="Image 1">
+        <img src="http://127.0.0.1:8000/assets/images/1708860522.jpeg" alt="Image 1">
+        <!-- Add more images as needed -->
+    </div>
+</body>
+</html>

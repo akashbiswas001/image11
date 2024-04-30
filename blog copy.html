@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- blog 06:54:06 GMT -->
+<head>
+    <meta charset="UTF-8">
+    <title>Blog || My Image ||</title>
+    <!-- responsive meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <!-- For IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- master stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Responsive stylesheet -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/favicon.png">
+    <link rel="icon" type="image/png" href="images/logo/horns.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="images/logo/horns.png" sizes="16x16">
+
+    <!-- Fixing Internet Explorer-->
+    <!--[if lt IE 9]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <script src="js/html5shiv.js"></script>
+    <![endif]-->
+    <style>
+        .col-xl-4,
+        .col-lg-4,
+        .col-md-12,
+        .col-sm-12 {
+            padding: 5px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="boxed_wrapper">
+
+        <div class="preloader"></div>
+
+        <!-- Start Top Bar style2 -->
+        <section class="top-bar-style2">
+            <div class="top-style2 clearfix row">
+                <div class="top-style2-left col-sm-6">
+                    <p><img src="images/logo/horns.png" class="logo" width="40" height="40"></p>
+                    <ul>
+                        <!-- <li>+123456789</li> -->
+                        <!-- <li>myimage@gmail.com</li> -->
+                     
+                        <!-- <li>we will notify</li> -->
+                        <input type="text" class="form-control search" name="search-value" id="search-value" placeholder="Search Image"  style="width: 500px;"> <i class="ri-search-line search-icon"></i>
+                    </ul>
+                </div>
+                <div class="top-style2-right col-sm-6">
+                    <!-- <ul class="top-right-menu">
+                        <li><a href="#">Partners</a></li> 
+                        <li><a href="#">FAQ</a></li>
+                       
+                        
+
+                    </ul> -->
+
+                    <ul class="topbar-social-links">
+                        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-skype" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                        <li>
+                            <button style="background-color: #5d867e; color: white; padding: 2px 4px; border: none; border-radius: 3px; cursor: pointer; font-size: 14px;">
+                                <a href="UploadImage.html" style="color: inherit; text-decoration: none;">Submit Image</a>
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- <br> -->
+        <!-- End Top Bar style2 -->
+        
+        <!--Start breadcrumb area-->
+        <!-- <section class="breadcrumb-area style2" style="background-image: url(images/resources/breadcrumb-bg-2.jpg);"> -->
+        <section class="breadcrumb-area style2" style="background-image: url('http://127.0.0.1:8000/assets/images/1709366405.jpg');">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="inner-content-box clearfix">
+                            <div class="title-s2 text-center">
+                                <span></span>
+                                <h1>Akash</h1>
+                            </div>
+                            <div class="breadcrumb-menu float-left">
+                                <ul class="clearfix">
+                                    <li><a href="index-2.html">Home</a></li>
+                                    <li><a href="blog.html">Photo</a></li>
+                                    <li class="active">Grid View</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--End breadcrumb area-->
+    
+        <div class="wrapper">
+            <div class="icon"><i id="left" class="fa-solid fa-angle-left"></i></div>
+            <ul class="tabs-box">
+                <li class="tab active"><a href="nature.html" style="color: white;">Nature</a></li>
+                <li class="tab"><a href="macro.html" style="color: rgb(76, 72, 72);">Macro</a></li>
+              <li class="tab">Camera</li>
+              <li class="tab">Wallpaper</li>
+              <li class="tab">Human</li>
+              <li class="tab">Photographer</li>
+              <li class="tab">Human</li>
+              <li class="tab">Potrait</li>
+              <li class="tab">Tree</li>
+              <li class="tab">Animal</li>
+              <li class="tab">Road</li>
+              <li class="tab">Sky</li>
+              <li class="tab">Building</li>
+              <li class="tab">Bike</li>
+              <li class="tab">Cars</li>
+              <li class="tab">River</li>
+              <li class="tab">Macro</li>
+              <li class="tab">Flower</li>
+            </ul>
+            <div class="icon"><i id="right" class="fa-solid fa-angle-right"></i></div>
+        </div>
+        
+        <!--Start blog area-->
+        <section id="blog-area" class="blog-default-area">
+            <div class="container">
+                <div class="row"  id="imageContainer">
+
+
+                </div>
+            </div>
+        </section>
+        <!--End blog area-->
+
+
+     
+
+    </div>
+
+
+    <div class="scroll-to-top scroll-to-target" data-target="html"><span class="fa fa-angle-up"></span></div>
+
+
+    <script src="js/akash.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/appear.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/bootstrap-select.min.js"></script>
+    <script src="js/isotope.js"></script>
+    <script src="js/jquery.bootstrap-touchspin.js"></script>
+    <script src="js/jquery.countTo.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/jquery.enllax.min.js"></script>
+    <script src="js/jquery.fancybox.js"></script>
+    <script src="js/jquery.mixitup.min.js"></script>
+    <script src="js/jquery.paroller.min.js"></script>
+    <script src="js/owl.js"></script>
+    <script src="js/validation.js"></script>
+    <script src="js/wow.js"></script>
+
+    <script src="js/map-helper.js"></script>
+
+    <script src="assets/language-switcher/jquery.polyglot.language.switcher.js"></script>
+    <script src="assets/timepicker/timePicker.js"></script>
+    <script src="assets/html5lightbox/html5lightbox.js"></script>
+    <script>
+        fetch('http://127.0.0.1:8000/api/Getimage', {
+        method: 'POST'
+    })
+            .then(response => response.json())
+            .then(data => {
+                if (data && data.status === 'true') {
+                    const imageContainer = document.getElementById('imageContainer');
+    
+                    data.data.forEach(image => {
+                        const img = document.createElement('img');
+                        img.src = image.image_url; 
+                        img.alt = 'Awesome Image';
+    
+                        const columnDiv = document.createElement('div');
+                        columnDiv.classList.add('col-xl-4', 'col-lg-4', 'col-md-12', 'col-sm-12');
+    
+                        const singleBlogColumn = document.createElement('div');
+                        singleBlogColumn.classList.add('single-blog-colum-style1');
+    
+                        const singleBlogPost = document.createElement('div');
+                        singleBlogPost.classList.add('single-blog-post', 'style3', 'wow', 'fadeInLeft');
+                        singleBlogPost.setAttribute('data-wow-delay', '0ms');
+                        singleBlogPost.setAttribute('data-wow-duration', '1500ms');
+    
+                        const imgHolder = document.createElement('div');
+                        imgHolder.classList.add('img-holder');
+    
+                        imgHolder.appendChild(img);
+    
+                        singleBlogPost.appendChild(imgHolder);
+    
+                        singleBlogColumn.appendChild(singleBlogPost);
+    
+                        columnDiv.appendChild(singleBlogColumn);
+    
+                        imageContainer.appendChild(columnDiv);
+                    });
+                } else {
+                    console.error('No data found.');
+                }
+            })
+            .catch(error => {
+                console.error('Error fetching data:', error);
+            });
+    </script>
+    <!-- thm custom script -->
+    <script src="js/custom.js"></script>
+
+    
+
+</body>
+
+
+<!-- blog 06:54:30 GMT -->
+</html>
